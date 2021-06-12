@@ -1,0 +1,12 @@
+{"plugins":[
+    ["module-resolver",{
+        "root":[],
+        "alias":{
+            "primaryStyles":"./src/Config/Style",
+            "primaryTheme": "./src/Config/Style/Theme",
+            "server":"./src/Config/Server",
+            "Api":"./src/Config/service/API",
+            "DAO/Auth":"./src/DAO/Auth",
+        }
+    }]
+]}
